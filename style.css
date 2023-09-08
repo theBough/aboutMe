@@ -18,3 +18,14 @@ html {
   color:#FF99C8;
   font-size:34px;
 }
+.my-button:hover{
+  background-color:#E4C1F9;
+  cursor:pointer;
+}
+.my-content{
+  padding:5%;
+}
+.my-label{
+  color:#FCF6BD;
+  font-size:30px;
+}
