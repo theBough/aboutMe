@@ -1,5 +1,15 @@
 var myLabel = document.getElementById("myLabel");
+var myFacts = [
+  "football",
+  "soccer",
+  "Swimming",
+  "Teacher",
+  "parent",
+  "brother"
+]
 
 function showFact(){
-  myLabel.textContent = "please work"
+  var rndNum = Math.random() * myFacts.length;
+  rndNum = Math.floor(rndNum)
+  myLabel.textContent = myFacts[rndNum]
 }
